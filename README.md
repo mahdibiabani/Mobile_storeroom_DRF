@@ -53,4 +53,5 @@ ReDoc: Provides a clean and readable documentation interface.
 You can access the documentation at the following URLs:
 
 Swagger UI: http://127.0.0.1:8000/swagger/
+
 ReDoc: http://127.0.0.1:8000/redoc/
