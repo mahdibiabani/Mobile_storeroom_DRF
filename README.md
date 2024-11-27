@@ -34,9 +34,13 @@ Usage
 Once the server is running, you can access the following endpoints:
 
 Admin Panel: http://127.0.0.1:8000/admin/
+
 Swagger UI: http://127.0.0.1:8000/swagger/
+
 ReDoc: http://127.0.0.1:8000/redoc/
+
 Authentication: http://127.0.0.1:8000/auth/
+
 Storeroom API: http://127.0.0.1:8000/storeroom/
 
 
