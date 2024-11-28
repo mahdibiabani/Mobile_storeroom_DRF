@@ -11,24 +11,20 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 
-Install the dependencies:
+run the project on Docker:
 
-pipenv install 
+docker-compose up
 
 
 Apply migrations:
 
-python manage.py migrate
+docker-compose run web python manage.py migrate
 
 
 Create a superuser:
 
-python manage.py createsuperuser
+docker-compose run web python manage.py createsuperuser
 
-
-Run the development server:
-
-python manage.py runserver
 
 Usage
 Once the server is running, you can access the following endpoints:
