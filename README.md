@@ -5,15 +5,10 @@ This project provides an API for managing a mobile storeroom. It includes endpoi
 Installation
 Clone the repository
 
-Create and activate a virtual environment:
-
-python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
 
 run the project on Docker:
 
-docker-compose up
+docker-compose up --build
 
 
 Apply migrations:
