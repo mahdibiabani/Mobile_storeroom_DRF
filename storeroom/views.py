@@ -60,6 +60,7 @@ class MobileViewSet(ModelViewSet):
     ordering_fields = ['status', 'price']
     search_fields = ['nationality']
     filterset_class = MobileFilter
+    filterset_fields = ['brand']
 
     permission_classes = [IsAdminOrReadOnly]
 
